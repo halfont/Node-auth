@@ -11,7 +11,7 @@
  
 import * as jwt from "jsonwebtoken"
 
-/********************************************THIS IS AN AUTH SERVICE DESGINED TO BE A STAND ALONE SERVICE - LATER MOVED TO ITS OWN REPO *****************************/
+/******************************************** THIS IS AN AUTH SERVICE DESGINED TO BE A STAND ALONE SERVICE  *****************************/
 
 const PORT: number = parseInt(process.env.AUTH_API_PORT as string, 10) || 4000;
 
